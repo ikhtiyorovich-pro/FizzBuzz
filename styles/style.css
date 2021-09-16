@@ -1,0 +1,32 @@
+.section {
+    background-image: url(/images/441d32aa5624ef0011d57ab26798f215.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 350px;
+    padding-bottom: 477px;
+}
+
+.input {
+    width: 100%;
+    max-width: 450px;
+}
+
+.button {
+    width: 100%;
+    max-width: 145px;
+}
+
+.result {
+    font-size: 30px;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 10px;
+    padding: 0 290px;
+    color: white;
+}

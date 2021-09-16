@@ -4,17 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <title>FizzBuzz</title>
   </head>
   <body>
-    <div class="wrapper">
-      <form class="form" method="POST">
-        <input class="input" type="number" />
-        <button class="button" type="submit">SEND</button>
-      </form>
+    <div class="section">
+      <div class="wrapper">
+        <div class="container-fluid p-0">
+          <form class="form" method="POST">
+            <input class="input" type="number" placeholder="Number..."/>
+            <button class="button" type="submit">SEND</button>
+          </form>
+        </div>
+        <span class="result"></span>
+      </div>
     </div>
-    <span class="result"></span>
+
     <script src="./js/main.js"></script>
   </body>
 </html>
